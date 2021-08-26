@@ -2,7 +2,6 @@ import tweepy
 from datetime import datetime
 import json
 
-
 class StreamingCollectorListener(tweepy.StreamListener):
     """
     Extends the basic stream listener
@@ -17,6 +16,7 @@ class StreamingCollectorListener(tweepy.StreamListener):
         file_name = str(datetime.date(datetime.now()))
 
         self.n_tweets = n_tweets
+        self.trends_counter = 0
         self.opened_file = open(file_path + "/" + file_name, "w")
 
     def on_status(self, status):

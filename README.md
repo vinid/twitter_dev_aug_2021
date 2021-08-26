@@ -20,14 +20,14 @@ In a few days you can get a fairly rich dataset that can be used for further ana
 This process is also described in the following [paper](https://aclanthology.org/2021.wassa-1.8/):
 
     Bianchi, F., Nozza, D., & Hovy, D. (2021, April). 
-    [FEEL-IT: Emotion and sentiment classification for the italian language. 
+    FEEL-IT: Emotion and sentiment classification for the italian language. 
     In WASSA (pp. 76-83).
 
 
 ## Part II - Quick and Dirty Storage with MongoDB
 
 **Use Case**: When there's the need to put up a quick streaming pipeline to track some keywords and
-tho store them somewhere safe without thinking too much. [MongoDB](https://www.mongodb.com/) is a good solution because set up
+to store them somewhere safe without thinking too much. [MongoDB](https://www.mongodb.com/) is a good solution because set up
 should be easy and python has a great integration with it thanks to [PyMongo](https://pymongo.readthedocs.io/en/stable/).
 
 ![](img/part_2.png)

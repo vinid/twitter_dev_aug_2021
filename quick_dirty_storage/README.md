@@ -1,4 +1,4 @@
-# Streaming directly into MongoDB
+# Storing directly into MongoDB
 
 ![](../img/part_2.png)
 

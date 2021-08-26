@@ -33,7 +33,7 @@ if __name__ == "__main__":
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
     print("Collecting Trends")
-    collected_trends = api.trends_place(location) # from the end of your code
+    collected_trends = api.trends_place(location)
 
     data = collected_trends[0]
     trends = data['trends']

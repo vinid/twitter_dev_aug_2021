@@ -12,7 +12,7 @@ You just need tweepy installed to run this script.
            --save_path save_data  \
            --trending_location 23424853  \
            --language it  \
-           --n_tweets 2 
+           --n_tweets 1
 
 `23424853` is the WOEID code of Italy. 
 

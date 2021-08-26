@@ -1,9 +1,12 @@
-# Streaming to a File
+# Building a Representative Dataset
+
+![](../img/part_1.png)
 
 ## Config File
 
-You need to have a config.ini file, somewhere on your machine where to store the API keys.
-
+You need to have a config.ini file, somewhere on your machine where to store the API keys. You can
+pass the location of the config.ini to the script, default location is the folder from where you
+run the script.
 ```
 [keys]
 consumer_key = something

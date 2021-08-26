@@ -6,7 +6,11 @@ class MongoDBCollectorListener(tweepy.StreamListener):
     Extends the basic stream listener and adds a call to MongoDB
     """
     def __init__(self, database, collection):
+        """
 
+        :param database: MongoDB database name
+        :param collection: MongoDB collection name
+        """
         super().__init__()
         client = MongoClient()
         self.db = client[database][collection]

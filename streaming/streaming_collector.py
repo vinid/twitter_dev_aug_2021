@@ -10,8 +10,8 @@ class StreamingCollectorListener(tweepy.StreamListener):
     def __init__(self, file_path, n_tweets):
         """
 
-        :param file_path:
-        :param n_tweets:
+        :param file_path: folder in which we want to save the daily tweets
+        :param n_tweets: maximum number of tweets to collect
         """
         super().__init__()
         file_name = str(datetime.date(datetime.now()))

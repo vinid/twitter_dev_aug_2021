@@ -16,12 +16,10 @@ class StreamingCollectorListener(tweepy.StreamListener):
         super().__init__()
         file_name = str(datetime.date(datetime.now()))
 
-        self.trends_counter = 0
         self.n_tweets = n_tweets
         self.opened_file = open(file_path + "/" + file_name, "w")
 
     def on_status(self, status):
-        print(self.n_tweets, self.trends_counter)
         if self.trends_counter == self.n_tweets:
             self.opened_file.close()
             return False

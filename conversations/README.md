@@ -1,4 +1,4 @@
-# Streaming to a File
+# Reconstruct a Conversation form a Tweet Id
 
 ## Config File
 
@@ -6,8 +6,5 @@ You need to have a config.ini file, somewhere on your machine where to store the
 
 ```
 [keys]
-consumer_key = something
-consumer_secret = something
-access_token = something
-access_token_secret = something
+bearer = something
 ```
